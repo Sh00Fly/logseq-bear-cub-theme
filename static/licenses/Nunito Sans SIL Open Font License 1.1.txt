@@ -1,0 +1,3 @@
+Nunito Sans	SIL Open Font License, 1.1
+NunitoSans[YTLC,opsz,wdth,wght].ttf: Copyright 2016 The Nunito Sans Project Authors (https://github.com/Fonthausen/NunitoSans)
+NunitoSans-Italic[YTLC,opsz,wdth,wght].ttf: Copyright 2016 The Nunito Sans Project Authors (https://github.com/Fonthausen/NunitoSans)
