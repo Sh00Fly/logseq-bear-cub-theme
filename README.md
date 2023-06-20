@@ -1,16 +1,15 @@
 
 
 <h1 align="center">
-    <img src="./static/images/Logo230x310.png">
+    <img src="./static/images/Logo230x310.png" width="140">
     <br>
     Bear Cub Theme for Logseq
 </h1>
 
----
-> "Order leads to all the virtues, but what leads to order?"
+> *"Order leads to all the virtues, but what leads to order?"*
 > 
-> -B.C. Lichtenberg.
----
+> *-B.C. Lichtenberg.*
+
 The Bear Cub theme is minimalistic and functional.  This theme doesn't distract you with an explosion of color and graphical elements. Instead, it helps you stay focused. It creates a clear distinction between different structural and functional elements, which helps you see a bigger picture at a glance at any time.
 
 ## Screenshots
@@ -23,7 +22,7 @@ Please note: Todo items are clearly discernible, but done items fade out of atte
 <img src="./static/images/Dark02.png" width="600"/>
 
 Please note: page and block properties take up less room on the screen and stay unobtrusive until you bring your attention to them and start interacting with them.
-<img src="./static/images/DarkPageProperties.gif" width="600">
+<img src="./static/images/DarkPageProperties.gif" width="600"/>
 
 ### Light Theme
 
@@ -51,9 +50,9 @@ Please note: page and block properties take up less room and stay unobtrusive un
 **Note:** The Bear Cub theme incorporates bullet threading. Therefore, to avoid conflicts, please disable the Bullet Threading plugin if you have it installed in your Logseq.
 
 ## Support my work
->"Appreciation is a wonderful thing: it makes what is excellent in others belong to us as well."
+>*"Appreciation is a wonderful thing: it makes what is excellent in others belong to us as well."*
 >
-> -Voltaire
+> *-Voltaire*
 
 I hope my work brought some joy into your day! Let me know,
 
@@ -76,7 +75,7 @@ The Bear Cub theme utilizes [Nunito Sans Fonts](https://github.com/Fonthausen/Nu
 
 ---
 <div align="center">
-Copyright © 2023 [Sh00Fly](https://github.com/Sh00Fly)
+    Copyright © 2023 <a href="https://github.com/Sh00Fly">Sh00Fly</a>
 
 [MIT License](https://github.com/Sh00Fly/logseq-bear-cub-theme/blob/main/LICENSE)
 </div>
