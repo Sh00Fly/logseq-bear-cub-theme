@@ -16,24 +16,24 @@ The Bear Cub theme is minimalistic and functional.  This theme doesn't distract 
 ### Dark Theme
 
 Please note: built-in bullet threading, unobtrusive page and block properties, clearly noticeable collapsed blocks, easily distinguishable block links, block embeds and tags.  
-<img src="./static/images/Dark01.png" width="600"/>
+<br><img src="./static/images/Dark01.png" width="600"/>
 
-Please note: Todo items are clearly discernible, but done items fade out of attention. Syntax highlighting in the code block is not part of this theme. It is configured through [[CodeMirror themes]].
-<img src="./static/images/Dark02.png" width="600"/>
+Please note: Todo items are clearly discernible, but done items fade out of attention. Syntax highlighting in the code block is not part of this theme. It is configured through [CodeMirror themes](https://codemirror.net/5/demo/theme.html). More on this [here](https://github.com/logseq/logseq/pull/3699).
+<br><img src="./static/images/Dark02.png" width="600"/>
 
 Please note: page and block properties take up less room on the screen and stay unobtrusive until you bring your attention to them and start interacting with them.
-<img src="./static/images/DarkPageProperties.gif" width="600"/>
+<br><img src="./static/images/DarkPageProperties.gif" width="600"/>
 
 ### Light Theme
 
 Please note: built-in bullet threading, unobtrusive page and block properties, clearly noticeable collapsed blocks, easily distinguishable block links, block embeds and tags.  
-<img src="./static/images/Light01.png" width="600"/>
+<br><img src="./static/images/Light01.png" width="600"/>
 
-Please note: Todo items are clearly discernible, but done items fade out of attention. Syntax highlighting in the code block is not part of this theme. It is configured through [[CodeMirror themes]].
-<img src="./static/images/Light02.png" width="600"/>
+Please note: Todo items are clearly discernible, but done items fade out of attention. Syntax highlighting in the code block is not part of this theme. It is configured through [CodeMirror themes](https://codemirror.net/5/demo/theme.html). More on this [here](https://github.com/logseq/logseq/pull/3699).
+<br><img src="./static/images/Light02.png" width="600"/>
 
 Please note: page and block properties take up less room and stay unobtrusive until you bring your attention to them and start interacting with them.
-<img src="./static/images/LightPageProperties.gif" width="600"/>
+<br><img src="./static/images/LightPageProperties.gif" width="600"/>
 
 ## Installation
 
