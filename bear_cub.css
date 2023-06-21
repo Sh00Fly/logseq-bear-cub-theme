@@ -44,19 +44,16 @@ html[data-theme=dark] {
     --cl-wedgewood: #557fa4;
     --ls-scrollbar-foreground-color: var(--cl-shark);
     --ls-scrollbar-background-color: var(--cl-eerie);
-    /*I give up, maybe that's what I shoud have started with*/
     --ls-primary-background-color: var(--cl-raisin);
     --ls-secondary-background-color: var(--cl-dryraisin);
     --ls-tertiary-background-color: var(--cl-wetraisin);
     --ls-quaternary-background-color: var(--cl-dark-charcoal);
-    /* --ls-scrollbar-thumb-hover-color */
     --cl-darkyellow: #7a7003;
     --cl-card-redline: rgba(255, 0, 0, 0.3);
     --cl-card-grayline: rgba(206, 207, 207, 0.15);
     --cl-card-text: var(--cl-maya);
     --cl-card-text-highlight: var(--cl-picton);
 }
-/* 5000 1825 1852*/
 .white-theme,
 html[data-theme=light] {
     --cl-black: #000;
@@ -93,13 +90,11 @@ html[data-theme=light] {
     --cl-columbia: #C8E4E2;
 }
 
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-/* Bullet threading settings */
+/* Bullet threading settings start */
 .white-theme,
 html[data-theme=light] {
     --ls-block-bullet-threading-active-color-overwrite: var(--cl-boulder);
     --ls-block-bullet-threading-width-overwrite: 2px;
-    /* --ls-guideline-color: var(--cl-broom); */
 }
 .dark-theme,
 html[data-theme=dark] {
@@ -108,8 +103,8 @@ html[data-theme=dark] {
     --ls-block-bullet-threading-width-overwrite: 2px;
     --ls-guideline-color: var(--cl-bunker);
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/* Bullet threading settings end */
+
 .bullet-container {
     height: 18px;
     width: 18px;
@@ -148,20 +143,16 @@ html[data-theme=dark] {
     background-color: var(--cl-Columbia);
 }
 
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .dark-theme mark {
     font-weight: 400;
 }
 
-
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .cp__all_pages .actions {
     background-color: var(--cl-alabaster);
 }
 
 .dark-theme .cp__all_pages .actions,
 html[data-theme=dark] .cp__all_pages .actions {
-    /* background-color: var(--cl-raisin); */
     background-color: var(--cl-dryraisin);
     padding-top: 5px;
     padding-bottom: 5px;
@@ -237,8 +228,6 @@ html[data-theme=dark] .cp__all_pages .actions .r a.journal {
     background-color: transparent;
     color: var(--cl-mutedwhite);
 }
-
-
 
 .cp__all_pages .paginates>span {
     color: var(--cl-);
@@ -327,7 +316,6 @@ html[data-theme=dark] .cp__all_pages .actions .search-wrap .form-input::placehol
 .dark-theme #app-container,
 html[data-theme=dark] #app-container {
     background-color: var(--cl-raisin);
-    /* background-color: var(--cl-jungle); */
 }
 
 .dark-theme .ls-page-title .edit-input-wrapper.editing,
@@ -361,27 +349,6 @@ html[data-theme=dark] .cards-review {
     box-shadow: none !important;
     --webkit-box-shadow: none !important;
 }
-
-/* .page-reference[data-ref=card].tag:hover,
-a[data-ref=card].tag:hover {
-    background-color: transparent;
-    border-top: 1px solid var(--cl-gallery);
-    border-right: 1px solid var(--cl-gallery);
-    border-bottom: 1px solid var(--cl-gallery);
-    border-left: 1px solid var(--cl-gallery);
-    border-radius: 15px;
-    color: var(--cl-iron) !important;
-} */
-
-/* .dark-theme *:is(.page-reference[data-ref=card].tag:hover, a[data-ref=card].tag:hover),
-html[data-theme=dark] *:is(.page-reference[data-ref=card].tag:hover, a[data-ref=card].tag:hover) {
-    background-color: transparent;
-    border-top: 1px solid var(--cl-shark);
-    border-right: 1px solid var(--cl-shark);
-    border-bottom: 1px solid var(--cl-shark);
-    border-left: 1px solid var(--cl-shark);
-    color: var(--cl-jumbo) !important;
-} */
 
 .page-reference[data-ref=card].tag,
 a[data-ref=card].tag {
@@ -520,16 +487,6 @@ html[data-theme=dark] a[data-ref=card].tag:hover {
         opacity: 1;
 }
 
-/* .dark-theme *:is(.page-reference[data-ref=card].tag, a[data-ref=card].tag),
-html[data-theme=dark] *:is(.page-reference[data-ref=card].tag, a[data-ref=card].tag) {
-    background-color: transparent;
-    border-top: 1px solid var(--cl-shark);
-    border-right: 1px solid var(--cl-shark);
-    border-bottom: 1px solid var(--cl-shark);
-    border-left: 1px solid var(--cl-shark);
-    color: var(--cl-jumbo) !important;
-} */
-
 .cp__right-sidebar .cards-title,
 .ui__modal .cards-title,
 .cards-review .cards-title {
@@ -553,7 +510,6 @@ html[data-theme=dark] .block-content .asset-container .ctl>a {
 
 .block-content .asset-container .ctl>a svg {
     fill: var(--cl-mineshaft);
-    /* opacity: ; */
 }
 
 .dark-theme .block-content .asset-container .ctl>a svg,
@@ -612,7 +568,6 @@ html[data-theme=dark] .block-marker {
 .block-parents a.page-ref:hover {
     background-color: var(--cl-);
     border-bottom: var(--cl-);
-    /* border-radius: ; */
     color: var(--cl-magnesium);
 }
 
@@ -667,26 +622,12 @@ html[data-theme=dark] .block-properties:hover {
     font-weight: 200;
 }
 
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 .block-ref {
-    /* background-color: var(--cl-);
-    border-top: var(--cl-);
-    border-right: var(--cl-);
-    
-    border-left: var(--cl-); */
-    /* color: #E78889; */
     border-bottom: 1px dashed var(--cl-pumice);
     color: var(--cl-mineshaft);
-    /* text-decoration-line: underline;
-    text-decoration-color: var(--cl-mineshaft);
-    text-decoration-style: dashed;
-    text-decoration-thickness: 1px; */
-    
 }
 
 .block-ref::before {
-    /* color: var(--cl-valencia);
-    fill: var(--cl-valencia); */
     content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="rgb(219,77,79)" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/> <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/></svg>');
     padding-left: 5px;
     padding-right: 5px;
@@ -694,12 +635,8 @@ html[data-theme=dark] .block-properties:hover {
 
 .dark-theme .block-ref,
 html[data-theme=dark] .block-ref {
-    /* background-color: var(--cl-);
-    border-top: var(--cl-);
-    border-right: var(--cl-); */
     border-bottom: 1px dashed var(--cl-rollingstone);
     color: var(--cl-mutedwhite);
-    /* border-left: var(--cl-); */
 }
 
 .dark-theme .block-ref::before {
@@ -709,24 +646,15 @@ html[data-theme=dark] .block-ref {
 }
 
 .block-ref:hover {
-    /* background-color: var(--cl-);
-    border-top: var(--cl-);
-    border-right: var(--cl-); */
     border-bottom: 1px dashed var(--cl-valencia);
-    /* border-left: var(--cl-); */
     color: var(--cl-valencia);
 }
 
 .dark-theme .block-ref:hover,
 html[data-theme=dark] .block-ref:hover {
-    /* background-color: var(--cl-);
-    border-top: var(--cl-);
-    border-right: var(--cl-); */
     border-bottom: 1px dashed var(--cl-maya);
-    /* border-left: var(--cl-); */
     color: var(--cl-maya);
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 .open-block-ref-link {
     background-color: var(--cl-alabaster);
@@ -815,8 +743,6 @@ html[data-theme=dark] .brackets {
     color: var(--cl-charcoal);
 }
 
-
-
 .dark-theme a:hover>.bullet-container,
 html[data-theme=dark] a:hover>.bullet-container {
     background-color: var(--cl-charcoal);
@@ -887,7 +813,6 @@ button.ui__button {
 }
 
 button#card-answers {
-    /* border: none; */
     border-top: 1px solid var(--cl-athens);
     border-right: 1px solid var(--cl-athens);
     border-bottom: 1px solid var(--cl-athens);
@@ -897,7 +822,6 @@ button#card-answers {
 
 .dark-theme button#card-answers,
 html[data-theme=dark-theme] button#card-answers {
-    /* border: none; */
     border: 1px solid var(--cl-darkgray);
     border-radius: 5px;
 }
@@ -1195,10 +1119,9 @@ html[data-theme=dark] .extensions__code-lang {
 .dark-theme *:is(*:is(#main-content-container, #right-sidebar)),
 html[data-theme=dark] *:is(*:is(#main-content-container, #right-sidebar)) {
     background-color: var(--cl-raisin);
-    /* background-color: var(--cl-jungle); */
     color: var(--cl-gainsboro);
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 .embed-block {
     background-color: var(--cl-wildsand);
     border-top: 1px solid var(--cl-greyser);
@@ -1226,7 +1149,6 @@ html[data-theme=dark] .embed-block {
     border-left: 1px solid var(--cl-montana);
     box-shadow: 1px 1px 3px 0px var(--cl-jungle) inset;
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 .embed-page {
     background-color: var(--cl-white);
@@ -1276,7 +1198,6 @@ html[data-theme=dark] .external-link:hover {
 
 .external-link {
     color: var(--cl-valencia);
-    /* text-decoration: ; */
 }
 
 .dark-theme .external-link,
@@ -1684,64 +1605,9 @@ html[data-theme=dark] #main-content-container::-webkit-scrollbar-thumb {
     background-color: var(--cl-darkgray);
 }
 
-/* Original Tags style
-a.tag {
-    background-color: var(--cl-gull);
-    border-top: transparent;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-left: transparent;
-    border-radius: 15px;
-    color: var(--cl-wildsand);
-    font-family: var(--font-family-main);
-    font-size: 1rem;
-    font-weight: ;
-    opacity: 1;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 2px;
-}
-
-a.tag:hover {
-    background-color: var(--cl-gull);
-    border-top: transparent;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-left: transparent;
-    border-radius: 15px;
-    color: var(--cl-wildsand);
-    font-family: var(--font-family-main);
-    font-size: 1rem;
-    font-weight: ;
-    opacity: 1;
-}
-
-.dark-theme a.tag,
-html[data-theme=dark] a.tag {
-    background-color: var(--cl-jumbo);
-    border-top: transparent;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-left: transparent;
-    color: var(--cl-vulcan);
-}
-
-.dark-theme a.tag:hover,
-html[data-theme=dark] a.tag:hover {
-    background-color: var(--cl-jumbo);
-    border-top: transparent;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-left: transparent;
-    color: var(--cl-vulcan);
-}
-*/
-
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-/*Begin: This redefines style of tags.*/
+/* Define style of tags - start */
 a.tag,
 a.tag:hover {
-    /*float: left;*/
     position: relative;
     width: auto;
     height: 20px;
@@ -1750,10 +1616,6 @@ a.tag:hover {
     line-height: 20px;
     background: var(--cl-gainsboro);
     color: var(--cl-valencia);
-    /*font-size: 18px;
-		font-weight: 600;
-		text-decoration: none;		*/
-    
     -moz-border-radius-bottomright: 4px;
     -webkit-border-bottom-right-radius: 4px;
     -moz-border-radius-topleft: 0px;
@@ -1778,12 +1640,6 @@ html[data-theme=dark] a.tag:hover {
     box-shadow: 1px 1px 3px 0px var(--cl-mako);
     line-height: 24px;
 }
-
-/* .dark-theme a.tag #text,
-html[data-theme=dark] a.tag #text {
-    box-sizing: content-box;
-    padding-top: 1px;
-} */
 
 a.tag::before {
     content: "";
@@ -1826,9 +1682,7 @@ html[data-theme=dark] a.tag:after {
     -webkit-box-shadow: -1px -1px 3px var(--cl-mako);
     box-shadow: -1px -1px 2px var(--cl-mako);
 }
-
-/*End: This redefines style of tags.*/
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/* Define style of tags - end */
 
 input::selection {
     background-color: var(--cl-sail);
@@ -2036,9 +1890,7 @@ html[data-theme=dark] .datepicker td.available:hover {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 3px 3px 7px 2px var(--cl-iron50);
-    /*, 0 4px 6px -2px var(--cl-gallery); */
     --webkit-box-shadow: 3px 3px 7px 2px var(--cl-iron50);
-    /*, 0 4px 6px -2px var(--cl-gallery);*/
 }
 
 .dark-theme *:is(#left-sidebar, #app-container) .dropdown-wrapper>div,
@@ -2050,18 +1902,8 @@ html[data-theme=dark-theme] .cards-review .dropdown-wrapper>div {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 3px 3px 7px 2px var(--cl-charcoal25);
-    /*, 0 4px 6px -2px var(--cl-gallery); */
     --webkit-box-shadow: 3px 3px 7px 2px var(--cl-charcoal25);
-    /*, 0 4px 6px -2px var(--cl-gallery);*/
 }
-
-/* .dark-theme *:is(*:is(#left-sidebar, #app-container) .dropdown-wrapper),
-html[data-theme=dark] *:is(*:is(#left-sidebar, #app-container) .dropdown-wrapper) {
-    background-color: var(--cl-raisin);
-    border: 1px solid var(--cl-charcoal);
-    box-shadow: 3px 3px 7px 2px var(--cl-charcoal25);
-    --webkit-box-shadow: 3px 3px 7px 2px var(--cl-charcoal25);
-} */
 
 *:is(#left-sidebar, #app-container) .dropdown-wrapper a.menu-link:hover {
     background-color: var(--cl-valencia) !important;
@@ -2096,7 +1938,6 @@ html[data-theme=dark] *:is(#left-sidebar, #app-container) .dropdown-wrapper a.me
 
 
 *:is(#left-sidebar, #app-container) .dropdown-wrapper a.menu-link {
-    /* background-color: var(--cl-alabaster); */
     background-color: transparent;
     border-top: transparent;
     border-right: transparent;
@@ -2319,7 +2160,6 @@ html[data-theme=dark] #root>div {
 }
 
 a svg {
-    /* color: var(--cl-boulder); */
     color: var(--cl-codgrey);
 }
 
@@ -2349,7 +2189,7 @@ html[data-theme=dark] #journals .text-4xl {
 html[data-theme=dark] #journals .journal-item:not(:first-child) {
     border-top: 1px solid var(--cl-black);
 }
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
 .header.items-cneter.mb-1 div {
     opacity: 1;
     color: var(--cl-broom);
@@ -2359,20 +2199,13 @@ html[data-theme=dark] #journals .journal-item:not(:first-child) {
     opacity: 1;
     color: red !important; 
 }
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
 .cp__sidebar-left-layout::before {
     opacity: 1;
 }
 
-/* .dark-theme .cp__sidebar-left-layout::before,
-html[data-theme=dark] .cp__sidebar-left-layout::before {
-    background-color: var(--cl-);
-} */
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 #left-sidebar .left-sidebar-inner {
-    /* background-color: var(--cl-codgrey) !important; */
     background-color: var(--cl-gainsboro) !important;
-    /* border-right: 1px solid var(--cl-aluminium); */
     border-right: 1px solid var(--cl-iron);
 }
 
@@ -2391,15 +2224,9 @@ html[data-theme=dark] .cp__sidebar-left-layout a:hover {
     color: var(--cl-picton);
 }
 
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 .left-sidebar-inner a.item:hover {
     background-color: transparent;
 }
-
-/* .dark-theme .left-sidebar-inner a.item:hover,
-html[data-theme=dark] .left-sidebar-inner a.item:hover {
-    background-color: transparent;
-} */
 
 #left-sidebar div.ui__dropdown-trigger:hover span svg {
     color: var(--cl-valencia);
@@ -2421,35 +2248,22 @@ html[data-theme=dark] #left-sidebar div.ui__dropdown-trigger:hover span svg {
     border-top-color: var(--cl-picton) !important;
 }
 
-
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
 .left-sidebar-inner .nav-content-item .header .wrap-th>span {
     font-size: 1.05rem;
     font-weight: bold;
     text-transform: lowercase;
-    /* border-bottom: 1px solid var(--cl-boulder); */
 }
 .left-sidebar-inner .nav-content-item .header .wrap-th>span::first-letter {
     text-transform: capitalize;
 }
 
-/* .left-sidebar-inner .nav-content-item .header:hover ~ .wraph-th>span {
-    color: red;
-    border 3px solid red;
-} */
-
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .dark-theme #left-sidebar .left-sidebar-inner,
 html[data-theme=dark] #left-sidebar .left-sidebar-inner {
     background-color: var(--cl-eerie) !important;
-    /* background-color: var(--cl-bunker) !important; */
     border-right: 1px solid var(--cl-black);
 }
 
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 #left-sidebar .favorites ul .favorite-item a:hover {
-    /* background-color: var(--cl-valencia); */
     border-top: transparent;
     border-right: transparent;
     border-bottom: transparent;
@@ -2460,14 +2274,12 @@ html[data-theme=dark] #left-sidebar .left-sidebar-inner {
 
 .dark-theme #left-sidebar .favorites ul .favorite-item a:hover,
 html[data-theme=dark] #left-sidebar .favorites ul .favorite-item a:hover {
-    /* background-color: var(--cl-denim); */
     border-top: transparent;
     border-right: transparent;
     border-bottom: transparent;
     border-left: transparent;
     color: var(--cl-picton);
 }
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 #left-sidebar .favorites ul .favorite-item a {
     background-color: transparent;
@@ -2501,17 +2313,11 @@ html[data-theme=dark] #left-sidebar .favorites div.header:hover {
     border-left: transparent;
     border-top: 1px solid var(--cl-shark);
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 #left-sidebar .favorites div.header {
     background-color: transparent;
     border-top: 1px solid var(--cl-silver);
-    /* border-top: transparent;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-left: transparent;
-    border-radius: 0px; */
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 .dark-theme #left-sidebar .favorites div.header,
 html[data-theme=dark] #left-sidebar .favorites div.header {
@@ -2534,11 +2340,6 @@ html[data-theme=dark] #left-sidebar .favorites div.header {
 html[data-theme=dark] #left-sidebar .favorites div.header a {
     color: var(--cl-gainsboro);
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-/* #left-sidebar .favorites div.header:hover svg {
-    fill: var(--cl-white);
-} */
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 .dark-theme #left-sidebar .favorites div.header:hover svg,
 html[data-theme=dark] #left-sidebar .favorites div.header:hover svg {
@@ -2563,7 +2364,7 @@ html[data-theme=dark] #left-sidebar .favorites div.header:hover .ti {
 html[data-theme=dark] #left-sidebar .favorites div.header .ti {
     color: var(--cl-stardust);
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 #left-sidebar .favorites div.header:hover a {
     color: var(--cl-valencia);
 }
@@ -2576,11 +2377,6 @@ html[data-theme=dark] #left-sidebar .favorites div.header .ti {
 #left-sidebar .favorites div.header:hover a.more svg {
     fill: var(--cl-valencia);
 }
-
-/* .dark-theme #left-sidebar .favorites div.header:hover a,
-html[data-theme=dark] #left-sidebar .favorites div.header:hover a {
-    color: var(--cl-valencia);
-}*/
 
 .dark-theme #left-sidebar .favorites div.header:hover a svg,
 html[data-theme=dark] #left-sidebar .favorites div.header:hover a svg {
@@ -2611,51 +2407,20 @@ html[data-theme=dark] #left-sidebar .favorites div.header,
     border-top: 1px solid var(--cl-shark);
 }
 
-/* .dark-theme #left-sidebar .favorites div.header:hover a,
-html[data-theme=dark] #left-sidebar .favorites div.header:hover a {
-    color: var(--cl-picton);
-}
-
-.dark-theme #left-sidebar .favorites div.header:hover a svg,
-html[data-theme=dark] #left-sidebar .favorites div.header:hover a svg {
-    color: var(--cl-picton);
-    fill:none;
-}
-
-.dark-theme #left-sidebar .favorites div.header:hover a.more svg,
-html[data-theme=dark] #left-sidebar .favorites div.header:hover a.more svg {
-    fill: var(--cl-picton);
-}
-
-.dark-theme #left-sidebar .favorites div.header>span>a,
-html[data-theme=dark] #left-sidebar .favorites div.header>span>a {
-    display: block;
-    min-width: 12px;
-    min-height: 9;
-}
-
-.dark-theme #left-sidebar .favorites div.header,
-html[data-theme=dark] #left-sidebar .favorites div.header,
-.dark-theme #left-sidebar .favorites div.header:hover,
-html[data-theme=dark] #left-sidebar .favorites div.header:hover {
-    border-top: 1px solid var(--cl-silver);
-}*/
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
 .dark-theme #left-sidebar .favorites div.header:hover a,
 html[data-theme=dark] #left-sidebar .favorites div.header:hover a {
     color: var(--cl-picton);
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 #left-sidebar .left-sidebar-inner .favorites .favorite-item a:hover .page-icon {
     color: var(--cl-valencia);
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 .menu-links-wrapper>div{
     font-weight: bold;
     font-size: 1.05rem;
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 .dark-theme #left-sidebar .left-sidebar-inner .favorites .favorite-item a:hover .page-icon,
 html[data-theme=dark] #left-sidebar .left-sidebar-inner .favorites .favorite-item a:hover .page-icon {
     color: var(--cl-picton);
@@ -2783,21 +2548,10 @@ html[data-theme=dark] *:is(#left-menu, #search-button) {
     border-left: transparent;
     color: var(--cl-stardust);
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-/* #left-sidebar .nav-header>div a:hover span.ui-icon::before {
-    color: var(--cl-valencia);
-} */
 
 #left-sidebar .nav-header>div a:hover span.flex-1 {
-    /* background-color: var(--cl-valencia); */
     color: var(--cl-valencia);
-    /* border-top: transparent;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-left: transparent;
-    border-radius: 5px; */
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 .dark-theme #left-sidebar .nav-header>div a:hover,
 html[data-theme=dark] #left-sidebar .nav-header>div a:hover {
@@ -2825,8 +2579,7 @@ html[data-theme=dark] #left-sidebar .nav-header>div a {
     border-bottom: transparent;
     border-left: transparent;
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@???@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 #left-sidebar .nav-header>div a:hover .ti {
     color: var(--cl-white);
 }
@@ -2838,11 +2591,11 @@ html[data-theme=dark] #left-sidebar .nav-header>div a:hover .ti {
 #left-sidebar .nav-header>div a .ti {
     color: var(--cl-stardust);
 }
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
 #left-sidebar .nav-header>div:hover a .ti svg {
     color: var(--cl-valencia);
 }
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
 .dark-theme #left-sidebar .nav-header>div a .ti,
 html[data-theme=dark] #left-sidebar .nav-header>div a .ti {
     color: var(--cl-stardust);
@@ -2864,7 +2617,6 @@ html[data-theme=dark] #left-sidebar .nav-header>div a:hover span {
     font-weight: 400;
 }
 
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 #left-sidebar .nav-header>div:hover a span,
 #left-sidebar .nav-header>div:hover a span.ui_icon svg {
     color: var(--cl-valencia);
@@ -2876,8 +2628,6 @@ html[data-theme=dark] #left-sidebar .nav-header>div:hover a span.ui_icon svg,
 .dark-theme #left-sidebar .nav-header>div:hover a span.ui_icon svg {
     color: var(--cl-picton);
 }
-
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 .dark-theme #left-sidebar .nav-header>div a span,
 html[data-theme=dark] #left-sidebar .nav-header>div a span {
@@ -2921,112 +2671,16 @@ html[data-theme=dark] .type-icon {
 }
 
 .type-icon::before {
-    /* border-color: none; */
     background-color: var(--cl-alabaster);
     color: blue;
-    /* flex-shrink: 0;
-    height: 24px;
-    overflow: hidden;
-    width: 24px; */
 }
 
 .dark-theme .type-icon::before,
 html[data-theme=dark] .type-icon::before {
-    /* border-color: none; */
     background-color: var(--cl-raisin);
     color: var(--cl-gainsboro);
-    /* flex-shrink: 0;
-    height: 24px;
-    overflow: hidden;
-    width: 24px; */
-}
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-#left-sidebar .new-page,
-.left-sidebar-inner .new-page {
-    background-color: var(--cl-codgrey);
 }
 
-.dark-theme *:is(#left-sidebar .new-page, .left-sidebar-inner .new-page),
-html[data-theme=dark] *:is(#left-sidebar .new-page, .left-sidebar-inner .new-page) {
-    background-color: var(--cl-bunker);
-}
-
-#left-sidebar .new-page a.item:hover {
-    background-color: transparent;
-    border-top: transparent;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-left: transparent;
-    border-radius: 0px;
-}
-
-.dark-theme #left-sidebar .new-page a.item:hover,
-html[data-theme=dark] #left-sidebar .new-page a.item:hover {
-    background-color: transparent;
-    border-top: transparent;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-left: transparent;
-}
-
-#left-sidebar .new-page a.item {
-    background-color: transparent;
-    border-top: transparent;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-left: transparent;
-    border-radius: 0px;
-}
-
-.dark-theme #left-sidebar .new-page a.item,
-html[data-theme=dark] #left-sidebar .new-page a.item {
-    background-color: transparent;
-    border-top: transparent;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-left: transparent;
-}
-
-#left-sidebar .new-page a.item:hover .ti {
-    color: var(--cl-white);
-}
-
-.dark-theme #left-sidebar .new-page a.item:hover .ti,
-html[data-theme=dark] #left-sidebar .new-page a.item:hover .ti {
-    color: var(--cl-alto);
-}
-
-#left-sidebar .new-page a.item .ti {
-    color: var(--cl-silver);
-}
-
-.dark-theme #left-sidebar .new-page a.item .ti,
-html[data-theme=dark] #left-sidebar .new-page a.item .ti {
-    color: var(--cl-stardust);
-}
-
-#left-sidebar .new-page a.item:hover span {
-    color: var(--cl-white);
-}
-
-.dark-theme #left-sidebar .new-page a.item:hover span,
-html[data-theme=dark] #left-sidebar .new-page a.item:hover span {
-    color: var(--cl-alto);
-}
-
-#left-sidebar .new-page a.item span {
-    color: var(--cl-silver);
-    font-family: var(--font-family-main);
-    font-weight: 400;
-}
-
-.dark-theme #left-sidebar .new-page a.item span,
-html[data-theme=dark] #left-sidebar .new-page a.item span {
-    color: var(--cl-stardust);
-}
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .left-sidebar-inner .create {
     background-image: none;
 }
@@ -3049,34 +2703,27 @@ html[data-theme=dark] .left-sidebar-inner .create #create-button {
 
 .dark-theme .left-sidebar-inner .create #create-button:hover,
 html[data-theme=dark] .left-sidebar-inner .create #create-button:hover {
-    /* color: var(--cl-picton); */
     background-color: var(--cl-wetraisin) !important;
     border-color: var(--cl-picton);
 }
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
 #left-sidebar .recent ul .recent-item a:hover {
-    /* background-color: var(--cl-valencia); */
     border-top: transparent;
     border-right: transparent;
     border-bottom: transparent;
     border-left: transparent;
     border-radius: 5px;
-    /* color: var(--cl-white); */
     color: var(--cl-valencia);
 }
 
-
 .dark-theme #left-sidebar .recent ul .recent-item a:hover,
 html[data-theme=dark] #left-sidebar .recent ul .recent-item a:hover {
-    /* background-color: var(--cl-denim); */
     border-top: transparent;
     border-right: transparent;
     border-bottom: transparent;
     border-left: transparent;
     color: var(--cl-picton);
 }
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 #left-sidebar .recent ul .recent-item a,
 #left-sidebar .recent ul .recent-item a .opacity-50 {
@@ -3130,10 +2777,6 @@ html[data-theme=dark] #left-sidebar .recent div.header {
     border-left: transparent;
 }
 
-/* #left-sidebar .recent div.header:hover svg {
-    fill: var(--cl-white);
-} */
-
 .dark-theme #left-sidebar .recent div.header:hover svg,
 html[data-theme=dark] #left-sidebar .recent div.header:hover svg {
     fill: var(--cl-alto);
@@ -3156,7 +2799,7 @@ html[data-theme=dark] #left-sidebar .recent div.header:hover .ti {
 html[data-theme=dark] #left-sidebar .recent div.header .ti {
     color: var(--cl-stardust);
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@omg@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 #left-sidebar .recent div.header:hover a {
     color: var(--cl-valencia);
 }
@@ -3205,9 +2848,6 @@ html[data-theme=dark] #left-sidebar .recent div.header:hover {
     border-top: 1px solid var(--cl-shark);
 }
 
-
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
 .dark-theme #left-sidebar .recent div.header:hover a,
 html[data-theme=dark] #left-sidebar .recent div.header:hover a {
     color: var(--cl-picton);
@@ -3226,11 +2866,9 @@ html[data-theme=dark] #left-sidebar .recent div.header a {
     color: var(--cl-gainsboro);
 }
 
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 #left-sidebar .left-sidebar-inner .recent .recent-item a:hover .page-icon {
     color: var(--cl-valencia);
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 .dark-theme #left-sidebar .left-sidebar-inner .recent .recent-item a:hover .page-icon,
 html[data-theme=dark] #left-sidebar .left-sidebar-inner .recent .recent-item a:hover .page-icon {
@@ -3673,7 +3311,6 @@ html[data-theme=dark] .references .content .color-level {
 
 .ti-filter:hover {
     background-color: var(--cl-);
-    /* border-radius: ; */
     color: var(--cl-jumbo);
 }
 
@@ -4478,16 +4115,6 @@ html[data-theme=dark] .cp__settings-inner .ui__button {
     border-left: 1px solid var(--cl-pumice);
     border-radius: 10px;
 }
-/*
-.dark-theme *:is(*:is(#left-sidebar, #app-container) .dropdown-wrapper),
-html[data-theme=dark] *:is(*:is(#left-sidebar, #app-container) .dropdown-wrapper) {
-    background-color: var(--cl-raisin);
-    border: 1px solid var(--cl-charcoal);
-    box-shadow: 3px 3px 7px 2px var(--cl-charcoal25);
-    --webkit-box-shadow: 3px 3px 7px 2px var(--cl-charcoal25);
-}
-*/
-
 
 .dark-theme .ui__modal-panel .panel-content,
 html[data-theme=dark] .ui__modal-panel .panel-content {
@@ -4595,13 +4222,11 @@ html[data-theme=dark] .cp__plugins-settings-inner select option {
 .dark-theme .form-input,
 html[data-theme=dark-theme] .form-input {
     border-color: var(--cl-gainsboro);
-    /* border-width: 1px; */
 }
 
 form-input,
 .form-input {
     border-color: var(--cl-iron);
-    /* border-width: 1px; */
 }
 
 .dark-theme .menu-links-outer,
@@ -4702,7 +4327,6 @@ html[data-theme=dark] .cp__settings-inner .keyboard-shortcut code {
 
 .dark-theme *:is(.cp__settings-inner>aside ul>li>a:hover, .cp__settings-inner>aside ul>li.active>a:hover),
 html[data-theme=dark] *:is(.cp__settings-inner>aside ul>li>a:hover, .cp__settings-inner>aside ul>li.active>a:hover) {
-    /* background-color: var(--cl-denim); */
     border-top: transparent;
     border-right: transparent;
     border-bottom: transparent;
@@ -5030,7 +4654,7 @@ html[data-theme=dark] .tippy-wrapper {
     background-color: transparent;
     color: var(--cl-mutedwhite) !important;
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 .theme-inner.ls-left-sidebar-open .cp__header .l {
     border-bottom: 1px solid var(--cl-silver);
     transition: border-bottom 0.3s step-end;
@@ -5042,7 +4666,6 @@ html[data-theme=dark] .theme-inner.ls-left-sidebar-open .cp__header .l {
     transition: border-bottom 0.3s step-end;
 }
 
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 #head .button {
     background-color: transparent;
     border-top: transparent;
@@ -5335,7 +4958,6 @@ html[data-theme=dark] .zotero-settings .form-select {
     color: var(--cl-mutedwhite);
 }
 
-/* Fixes for command palette and search */
 .cp__palette-main .chosen {
     background: transparent;
 }
@@ -5362,12 +4984,6 @@ html[data-theme=dark] .zotero-settings .form-select {
     background: transparent !important;
     border-radius: 10px;
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-* Hide first, empty item on graph dropdown *
-.left-sidebar-inner .dropdown-wrapper>div>a:first-child {
-    display: none;
-}
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 .cp__sidebar-left-layout::before {
     background: transparent;
@@ -5377,7 +4993,6 @@ html[data-theme=dark] .zotero-settings .form-select {
     font-size: 1rem !important;
 }
 
-/* Remove animation from links */
 a {
     transition: none;
 }
@@ -5407,15 +5022,6 @@ a {
     padding: 0.25rem;
 }
 
-/* Fix Dropdown Wrapper inner margin */
-/* .dropdown-wrapper>div {
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
-} */
-
-/* Fix margins for favorite and recent items */
 .cp__sidebar-left-layout .recent ul .recent-item a,
 .cp__sidebar-left-layout .favorites ul .favorite-item a {
     margin-left: 8px;
@@ -5435,7 +5041,6 @@ a {
     padding-bottom: 0.4em;
 }
 
-/* Align Icons on left sidebar */
 .cp__sidebar-left-layout nav[aria-label="Sidebar"] div.relative a,
 .cp__sidebar-left-layout .nav-header>div a {
     align-items: center;
@@ -5544,21 +5149,9 @@ html[data-theme=dark] textarea {
     font-weight: 200;
 }
 
-
-
-/*Begin - Fixes for bullet threading plugin */
 .block-children-left-border {
     z-index: 0;
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-/* .ls-block:not(:focus-within)>.items-baseline {
-    align-items: self-end !important;
-}
-
-.ls-block>.items-baseline {
-    align-items: self-end !important;
-} */
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 .left-sidebar-inner .nav-content-item .bd ul a {
     width: unset;
@@ -5580,30 +5173,18 @@ i.ti {
 .dark-theme .ui__modal-panel,
 html[data-theme=dark] .ui__modal-panel {
         box-shadow: 3px 3px 7px 2px var(--cl-charcoal25) !important;
-            /* --webkit-box-shadow: 3px 3px 7px 2px var(--cl-charcoal25); */
-            /* box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); */
 }
-
 
 .block-control,
 .block-control:hover {
     min-height: unset;
 }
-/*End - Fixes for bullet threading plugin */
 
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-/*Begin - A fix for Tabs plugin */
 #main-content-container {
     margin-top: 2.2em;
     padding-top: 2.2rem;
 }
-/*End - A fix for Tabs plugin */
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 html:not(.is-native-android) {
     font-family: var(--ls-font-family);
-    /* font-family: var(--ls-font-family), sans-serif, system-ui,
-        -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
-        Arial, 'Noto Sans', serif, Apple Color Emoji, Segoe UI Emoji,
-        Segoe UI Symbol !important; */
 }
