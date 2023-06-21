@@ -16,24 +16,24 @@ The Bear Cub theme is minimalistic and functional.  This theme doesn't distract 
 ### Dark Theme
 
 Please note: built-in bullet threading, unobtrusive page and block properties, clearly noticeable collapsed blocks, easily distinguishable block links, block embeds and tags.  
-<br><img src="./static/images/Dark01.png" width="600"/>
+<br><img src="https://raw.githubusercontent.com/Sh00Fly/logseq-bear-cub-theme/main/static/images/Dark01.png" width="600"/>
 
 Please note: Todo items are clearly discernible, but done items fade out of attention. Syntax highlighting in the code block is not part of this theme. It is configured through [CodeMirror themes](https://codemirror.net/5/demo/theme.html). More on this [here](https://github.com/logseq/logseq/pull/3699).
-<br><img src="./static/images/Dark02.png" width="600"/>
+<br><img src="https://raw.githubusercontent.com/Sh00Fly/logseq-bear-cub-theme/main/static/images/Dark02.png" width="600"/>
 
 Please note: page and block properties take up less room on the screen and stay unobtrusive until you bring your attention to them and start interacting with them.
-<br><img src="./static/images/DarkPageProperties.gif" width="600"/>
+<br><img src="https://raw.githubusercontent.com/Sh00Fly/logseq-bear-cub-theme/main/static/images/DarkPageProperties.gif" width="600"/>
 
 ### Light Theme
 
 Please note: built-in bullet threading, unobtrusive page and block properties, clearly noticeable collapsed blocks, easily distinguishable block links, block embeds and tags.  
-<br><img src="./static/images/Light01.png" width="600"/>
+<br><img src="https://raw.githubusercontent.com/Sh00Fly/logseq-bear-cub-theme/main/static/images/Light01.png" width="600"/>
 
 Please note: Todo items are clearly discernible, but done items fade out of attention. Syntax highlighting in the code block is not part of this theme. It is configured through [CodeMirror themes](https://codemirror.net/5/demo/theme.html). More on this [here](https://github.com/logseq/logseq/pull/3699).
-<br><img src="./static/images/Light02.png" width="600"/>
+<br><img src="https://raw.githubusercontent.com/Sh00Fly/logseq-bear-cub-theme/main/static/images/Light02.png" width="600"/>
 
 Please note: page and block properties take up less room and stay unobtrusive until you bring your attention to them and start interacting with them.
-<br><img src="./static/images/LightPageProperties.gif" width="600"/>
+<br><img src="https://raw.githubusercontent.com/Sh00Fly/logseq-bear-cub-theme/main/static/images/LightPageProperties.gif" width="600"/>
 
 ## Installation
 
@@ -56,7 +56,7 @@ Please note: page and block properties take up less room and stay unobtrusive un
 
 I hope my work brought some joy into your day! Let me know,
 
-<a href="https://www.buymeacoffee.com/Sh00Fly" target="_blank"><img src="./static/images/BuyMeACoffee.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/Sh00Fly" target="_blank"><img src="https://raw.githubusercontent.com/Sh00Fly/logseq-bear-cub-theme/main/static/images/BuyMeACoffee.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
 ## Bugs and improvement ideas
