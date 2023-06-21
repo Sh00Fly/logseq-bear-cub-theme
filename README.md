@@ -56,7 +56,7 @@ Please note: page and block properties take up less room and stay unobtrusive un
 
 I hope my work brought some joy into your day! Let me know,
 
-<a href="https://www.buymeacoffee.com/Sh00Fly" target="_blank"><img src="https://raw.githubusercontent.com/Sh00Fly/logseq-bear-cub-theme/main/static/images/BuyMeACoffee.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/Sh00Fly" target="_blank"><img src="https://raw.githubusercontent.com/Sh00Fly/logseq-bear-cub-theme/main/static/images/BuyMeACoffee.png" alt="Buy Me A Coffee" style="height: 57px !important;width: 230px !important;" ></a>
 
 
 ## Bugs and improvement ideas
